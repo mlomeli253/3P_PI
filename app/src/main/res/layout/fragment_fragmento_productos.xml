@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.misaellomeli.loginejemplo.Fragmento_clientes"
+    android:id="@+id/productos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Productos"
+        android:id="@+id/textView8"
+        android:layout_gravity="center"
+        android:textSize="49dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_clientes_producto"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|right"
+        app:fabSize="normal"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        android:onClick="agregarP" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar ventas"
+        android:id="@+id/btn_ventas"
+        android:layout_gravity="right|top"
+        android:onClick="ventas" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:id="@+id/btn_buscar"
+        android:layout_gravity="left|top"
+        android:onClick="buscar" />
+</FrameLayout>
